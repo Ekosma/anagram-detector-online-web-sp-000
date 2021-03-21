@@ -14,6 +14,7 @@ class Anagram
       new_array = word.split("").sort  
       if new_word == new_array 
         new_array >> matches
+      end
     end
     matches
   end
